@@ -17,13 +17,13 @@
 $(call inherit-product, device/360/QK1505/full_QK1505.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_QK1505
 BOARD_VENDOR := 360
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=360/QK1505/QK1505:6.0.1/MMB29M/6.0.042.P0.161110.QK1505:user/release-keys \
-    PRIVATE_BUILD_DESC="QK1505-user 6.0.1 MMB29M V42 release-keys"
+    BUILD_FINGERPRINT=360/QK1505/QK1505-A02/QK1505-A02:8.1.0/MMB29M/8.1.001.P0.190819.QK1505:userdebug/test-keys \
+    PRIVATE_BUILD_DESC="QK1505-userdebug 8.1.0 MMB29M V01 test-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-360
